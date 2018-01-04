@@ -1,0 +1,63 @@
+[
+    {
+        "age": 0, 
+        "id": "angry-tomas", 
+        "imageUrl": "img/faces/angry-tomas0.jpg", 
+        "name": "Angry Tomas", 
+        "snippet": "Angry Tomas."
+    }, 
+    {
+        "age": 1, 
+        "id": "badass-tomas", 
+        "imageUrl": "img/faces/badass-tomas0.jpg", 
+        "name": "Badass Tomas", 
+        "snippet": "Badass Tomas"
+    }, 
+    {
+        "age": 2, 
+        "carrier": "AT&T", 
+        "id": "confused-tomas", 
+        "imageUrl": "img/faces/confused-tomas0.jpg", 
+        "name": "Confused Tomas", 
+        "snippet": "Confused Tomas"
+    }, 
+    {
+        "age": 10, 
+        "carrier": "Verizon", 
+        "id": "happy-tomas", 
+        "imageUrl": "img/faces/happy-tomas0.jpg", 
+        "name": "Happy Tomas", 
+        "snippet": "A happy Tomas"
+    }, 
+    {
+        "age": 11, 
+        "carrier": "Verizon", 
+        "id": "philosofical-tomas", 
+        "imageUrl": "img/faces/philosofical-tomas0.jpg", 
+        "name": "Philosofical Tomas", 
+        "snippet": "Philosofical Tomas"
+    }, 
+    {
+        "age": 12, 
+        "carrier": "AT&T", 
+        "id": "scared-tomas", 
+        "imageUrl": "img/faces/scared-tomas0.jpg", 
+        "name": "Scared Tomas", 
+        "snippet": "Scared Tomas"
+    }, 
+    {
+        "age": 13, 
+        "carrier": "T-Mobile", 
+        "id": "sexy-tomas", 
+        "imageUrl": "img/faces/sexy-tomas0.jpg", 
+        "name": "Sexy Tomas", 
+        "snippet": "Sexy Tomas"
+    }, 
+    {
+        "age": 19, 
+        "id": "thinking-tomas", 
+        "imageUrl": "img/faces/thinking-tomas0.jpg", 
+        "name": "Thinking Tomas", 
+        "snippet": "Thinking Tomas"
+    }
+]
