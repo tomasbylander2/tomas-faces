@@ -10,7 +10,7 @@ angular.
         when('/faces', {
           template: '<phone-list></phone-list>'
         }).
-        when('/faces/:phoneId', {
+        when('/faces/:faceId', {
           template: '<phone-detail></phone-detail>'
         }).
         otherwise('/faces');
