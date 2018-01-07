@@ -1,4 +1,4 @@
-# Tomas many different faces
+# Tomas many different faces - a world-class actor in the making
 
 
 ## Overview
