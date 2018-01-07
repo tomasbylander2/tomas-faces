@@ -17,7 +17,7 @@ describe('phoneDetail', function() {
       $httpBackend = _$httpBackend_;
       $httpBackend.expectGET('faces/xyz.json').respond(xyzPhoneData);
 
-      $routeParams.phoneId = 'xyz';
+      $routeParams.faceId = 'xyz';
 
       ctrl = $componentController('phoneDetail');
     }));
