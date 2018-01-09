@@ -17,7 +17,7 @@ describe('PhoneCat Application', function() {
       var faceList = element.all(by.repeater('phone in $ctrl.phones'));
       var query = element(by.model('$ctrl.query'));
 
-      expect(faceList.count()).toBe(8);
+      expect(faceList.count()).toBe(9);
 
       query.sendKeys('angry');
       expect(faceList.count()).toBe(1);
@@ -31,10 +31,10 @@ describe('PhoneCat Application', function() {
       var queryField = element(by.model('$ctrl.query'));
       var orderSelect = element(by.model('$ctrl.orderProp'));
       var nameOption = orderSelect.element(by.css('option[value="name"]'));
-      var phoneNameColumn = element.all(by.repeater('phone in $ctrl.phones').column('phone.name'));
+      var faceNameColumn = element.all(by.repeater('phone in $ctrl.phones').column('phone.name'));
 
       function getNames() {
-        return phoneNameColumn.map(function(elem) {
+        return faceNameColumn.map(function(elem) {
           return elem.getText();
         });
       }
