@@ -1,8 +1,5 @@
 'use strict';
 
-// Angular E2E Testing Guide:
-// https://docs.angularjs.org/guide/e2e-testing
-
 describe('PhoneCat Application', function() {
 
   it('should redirect `index.html` to `index.html#!/faces', function() {
@@ -17,17 +14,17 @@ describe('PhoneCat Application', function() {
     });
 
     it('should filter the face list as a user types into the search box', function() {
-      var phoneList = element.all(by.repeater('phone in $ctrl.phones'));
+      var faceList = element.all(by.repeater('phone in $ctrl.phones'));
       var query = element(by.model('$ctrl.query'));
 
-      expect(phoneList.count()).toBe(8);
+      expect(faceList.count()).toBe(8);
 
       query.sendKeys('angry');
-      expect(phoneList.count()).toBe(1);
+      expect(faceList.count()).toBe(1);
 
       query.clear();
       query.sendKeys('thinking');
-      expect(phoneList.count()).toBe(1);
+      expect(faceList.count()).toBe(1);
     });
 
     it('should be possible to control face order via the drop-down menu', function() {
