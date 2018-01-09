@@ -17,7 +17,7 @@ describe('PhoneCat Application', function() {
       var faceList = element.all(by.repeater('phone in $ctrl.phones'));
       var query = element(by.model('$ctrl.query'));
 
-      expect(faceList.count()).toBe(9);
+      expect(faceList.count()).toBe(8);
 
       query.sendKeys('angry');
       expect(faceList.count()).toBe(1);

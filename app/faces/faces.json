@@ -46,11 +46,5 @@
         "imageUrl": "img/faces/thinking-tomas0.jpg", 
         "name": "Thinking Tomas", 
         "snippet": "Thinking Tomas"
-    },
-    {
-        "id": "parental-tomas", 
-        "imageUrl": "img/faces/parental-tomas0.jpg", 
-        "name": "Parental leave Tomas", 
-        "snippet": "Parental leave Tomas"
     }
 ]
