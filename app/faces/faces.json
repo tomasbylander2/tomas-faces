@@ -54,12 +54,5 @@
         "imageUrl": "img/faces/thinking-tomas0.jpg",
         "name": "Thinking Tomas",
         "snippet": "Thinking about the box and how to think outside it."
-    },
-    {
-        "age": 19,
-        "id": "parental-tomas",
-        "imageUrl": "img/faces/parental-tomas0.jpg",
-        "name": "Parental Tomas",
-        "snippet": "Loving parental life."
     }
 ]
