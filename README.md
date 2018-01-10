@@ -1,7 +1,7 @@
 # Tomas many different faces - a world-class actor in the making!!!!!!
 
 
-## Overview of application
+## Overview of the application
 
 This application will demo the full spectra of faces Tomas is capable of.
 
